@@ -1,0 +1,13 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+$theme-colors: (
+  "primary":    $primary,
+);
+
+.custom-bg {
+  background-color: #f0f8ff; /* Light blue color */
+  /* OR, for an image background */
+//   background-image: url('path_to_your_image.jpg');
+  background-size: cover;
+  background-position: center;
+}
