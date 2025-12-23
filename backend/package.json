@@ -8,14 +8,20 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js"   
+    "dev": "nodemon server.js"
   },
   "dependencies": {
+    "@prisma/client": "^6.19.1",
     "body-parser": "^2.2.1",
     "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
     "express": "^5.2.1",
     "mysql": "^2.18.1",
     "mysql2": "^3.15.3",
-    "nodemon": "^3.1.11"
+    "nodemon": "^3.1.11",
+    "prisma": "^6.19.1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3"
   }
 }
